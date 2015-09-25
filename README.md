@@ -7,7 +7,7 @@
 ========================================================================
 ![Question2](/images/ops2.gif)
 ------------------------------------------------------------------------
-The answer is D - an alias record, per:
+####The answer is D - an alias record, per:
 ![Question2a](/images/ops2a.png)
 
 http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-choosing-alias-non-alias.html
