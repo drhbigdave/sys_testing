@@ -4,44 +4,47 @@
 ![Question1](/images/ops1.gif)
 #####Answer: **C** 
 #####Comment: 
-#####This is a sucky question, in my experience the volume cannot be detached when you are making a snapshot But I suspect that might have been unexpected behviour I experienced, that answer is **C**.
+>This is a sucky question, in my experience the volume cannot be detached when you are making a snapshot But I suspect that might have been unexpected behviour I experienced, that answer is **C**.
 ========================================================================
 #####Question2
 ![Question2](/images/ops2.gif)
 ------------------------------------------------------------------------
-#####The answer is D - an alias record, per:
+#####Answer: D 
+> an alias record is the right answer, per:
 ![Question2a](/images/ops2a.png)
 
-##### http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-choosing-alias-non-alias.html
+> http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-choosing-alias-non-alias.html
 =========================================================================
 #####Question3
 ![Question3](/images/ops3.gif)
 #####Answer: A 
 #####Comment: 
-#####A is simple and doable, I can't find any mention of "SNMP" in the Cloudwatch developers guide, seems like a dumb way to go about it, if not impossible
+>A is simple and doable, I can't find any mention of "SNMP" in the Cloudwatch developers guide, seems like a dumb way to go about it, if not impossible
 =========================================================================
 =========================================================================
 #####Question4
 ![Question4](/images/ops4.gif)
 #####Answer: A, D
-#####Comment: C and E are both false
+#####Comment: 
+>C and E are both false
 =========================================================================
 #####Question5
 ![Question5](/images/ops5.gif)
 #####Answer: A, D
-#####Comment: C is wrong, the only thing needed besides NACLs and SG's to allow the traffic is the local route in the route table.
+#####Comment: 
+>C is wrong, the only thing needed besides NACLs and SG's to allow the traffic is the local route in the route table.
 =========================================================================
 #####Question6
 ![Question6](/images/ops6.gif)
 #####Answer: Should be A, B, C
 #####Comment: 
-#####x.509 certs are listed in the Operational Checklists pdf, but signing certs should be wrong or 2 ambiguous.
+>x.509 certs are listed in the Operational Checklists pdf, but signing certs should be wrong or 2 ambiguous.
 =========================================================================
 #####Question7
 ![Question7](/images/ops7.gif)
 #####Answer: A, B or C are correct
 #####Comment: 
-#####to make and existing EBS vol PIOPs vol you must make new vols from a snapshot of your original, you can EBS optimize an existing instance, and SSD would be better than magnetic
+>to make and existing EBS vol PIOPs vol you must make new vols from a snapshot of your original, you can EBS optimize an existing instance, and SSD would be better than magnetic
 =========================================================================
 #####Question8
 ![Question8](/images/ops8.gif)
@@ -54,7 +57,7 @@
 #####Question9
 ![Question9](/images/ops9.gif)
 #####Answer: D
-Comment: D is the only answer that will increase bandwidth - total bandwidth used as there will be more instances
+>Comment: D is the only answer that will increase bandwidth - total bandwidth used as there will be more instances
 =========================================================================
 #####Question
 ![Question](/images/ops.gif)
