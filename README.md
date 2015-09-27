@@ -3,8 +3,8 @@
 #####Question1
 ![Question1](/images/ops1.gif)
 #####Answer: **C** 
-#Comment:
-This is a sucky question, in my experience the volume cannot be detached when you are making a snapshot But I suspect that might have been unexpected behviour I experienced, that answer is **C**.
+#####Comment: 
+#####This is a sucky question, in my experience the volume cannot be detached when you are making a snapshot But I suspect that might have been unexpected behviour I experienced, that answer is **C**.
 ========================================================================
 #####Question2
 ![Question2](/images/ops2.gif)
