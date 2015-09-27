@@ -57,7 +57,8 @@
 #####Question9
 ![Question9](/images/ops9.gif)
 #####Answer: D
->Comment: D is the only answer that will increase bandwidth - total bandwidth used as there will be more instances
+#####Comment: 
+>D is the only answer that will increase bandwidth - total bandwidth used as there will be more instances
 =========================================================================
 #####Question
 ![Question](/images/ops.gif)
