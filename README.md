@@ -25,8 +25,8 @@ A is simple and doable, I can't find any mention of "SNMP" in the Cloudwatch dev
 #####Question4
 ![Question4](/images/ops4.gif)
 #####Answer: A, D
-#####Comment: 
-C and E are both false
+Comment: 
+####C and E are both false
 =========================================================================
 #####Question
 ![Question](/images/ops.gif)
