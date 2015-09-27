@@ -18,20 +18,18 @@ http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-ch
 #####Question3
 ![Question3](/images/ops3.gif)
 #####Answer: A 
-#####Comment:
-A is simple and doable, I can't find any mention of "SNMP" in the Cloudwatch developers guide, seems like a dumb way to go about it, if not impossible
+Comment: A is simple and doable, I can't find any mention of "SNMP" in the Cloudwatch developers guide, seems like a dumb way to go about it, if not impossible
 =========================================================================
 =========================================================================
 #####Question4
 ![Question4](/images/ops4.gif)
 #####Answer: A, D
-Comment: 
-####C and E are both false
+Comment: C and E are both false
 =========================================================================
-#####Question
-![Question](/images/ops.gif)
-#####Answer: 
-#####Comment:
+#####Question5
+![Question5](/images/ops5.gif)
+#####Answer: A, D
+#####Comment: C is wrong, the only thing needed besides NACLs and SG's to allow the traffic is the local route in the route table.
 =========================================================================
 #####Question
 ![Question](/images/ops.gif)
