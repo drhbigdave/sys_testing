@@ -50,7 +50,7 @@
 ![Question8](/images/ops8.gif)
 #####Answer: A, D
 #####Comment: 
->Evictions are items moved out of Elasticache to make room for new items,/n
+>Evictions are items moved out of Elasticache to make room for new items,
 >GetMisses mean the item requested wasn't in cache, these 2 metrics mean the size is too small /n
 >Items in Elasticache are stored on the instance store storage of the instance so total cache is number of Elasticache instances * their ephemeral stores, increase the size.
 :=========================================================================
@@ -63,7 +63,12 @@
 #####Question
 ![Question](/images/ops.gif)
 #####Answer: 
-#####Comment:=========================================================================
+#####Comment: 
+>Evictions are items moved out of Elasticache to make room for new items,
+>GetMisses mean the item requested wasn't in cache, these 2 metrics mean the size is too small /n
+>Items in Elasticache are stored on the instance store storage of the instance so total cache is number of Elasticache instances * their ephemeral stores, increase the size.#####Comment:
+
+=========================================================================
 #####Question
 ![Question](/images/ops.gif)
 #####Answer: 
