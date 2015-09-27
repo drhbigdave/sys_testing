@@ -33,12 +33,15 @@
 #####Answer: A, D
 #####Comment: 
 >C is wrong, the only thing needed besides NACLs and SG's to allow the traffic is the local route in the route table.
+
 =========================================================================
 #####Question6
 ![Question6](/images/ops6.gif)
 #####Answer: Should be A, B, C
 #####Comment: 
 >x.509 certs are listed in the Operational Checklists pdf, but signing certs should be wrong or 2 ambiguous.
+>
+>
 =========================================================================
 #####Question7
 ![Question7](/images/ops7.gif)
@@ -61,6 +64,8 @@
 #####Answer: D
 #####Comment: 
 >D is the only answer that will increase bandwidth - total bandwidth used as there will be more instances
+>
+>
 =========================================================================
 #####Question
 ![Question](/images/ops.gif)
