@@ -31,22 +31,28 @@ Comment: C and E are both false
 #####Answer: A, D
 #####Comment: C is wrong, the only thing needed besides NACLs and SG's to allow the traffic is the local route in the route table.
 =========================================================================
-#####Question
-![Question](/images/ops.gif)
-#####Answer: 
-#####Comment:=========================================================================
-#####Question
-![Question](/images/ops.gif)
-#####Answer: 
-#####Comment:=========================================================================
-#####Question
-![Question](/images/ops.gif)
-#####Answer: 
-#####Comment:=========================================================================
-#####Question
-![Question](/images/ops.gif)
-#####Answer: 
-#####Comment:=========================================================================
+#####Question6
+![Question6](/images/ops6.gif)
+#####Answer: Should be A, B, C
+Comment: x.509 certs are listed in the Operational Checklists pdf, but signing certs should be wrong or 2 ambiguous.
+=========================================================================
+#####Question7
+![Question7](/images/ops7.gif)
+#####Answer: A, B or C are correct
+Comment: to make and existing EBS vol PIOPs vol you must make new vols from a snapshot of your original, you can EBS optimize an existing instance, and SSD would be better than magnetic
+=========================================================================
+#####Question8
+![Question8](/images/ops8.gif)
+#####Answer: A, D
+Comment: Evictions are items moved out of Elasticache to make room for new items,/n
+GetMisses mean the item requested wasn't in cache, these 2 metrics mean the size is too small /n
+Items in Elasticache are stored on the instance store storage of the instance so total cache is number of Elasticache instances * their ephemeral stores, increase the size.
+:=========================================================================
+#####Question9
+![Question9](/images/ops9.gif)
+#####Answer: D
+Comment: D is the only answer that will increase bandwidth - total bandwidth used as there will be more instances
+=========================================================================
 #####Question
 ![Question](/images/ops.gif)
 #####Answer: 
