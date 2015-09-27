@@ -40,7 +40,7 @@
 #####Question7
 ![Question7](/images/ops7.gif)
 #####Answer: A, B or C are correct
-#####Comment: /n
+#####Comment: 
 to make and existing EBS vol PIOPs vol you must make new vols from a snapshot /n 
 of your original, you can EBS optimize an existing instance, and SSD would be better than magnetic
 =========================================================================
