@@ -224,29 +224,34 @@
 >I say CF as it says manage "infrastructure"
 
 =========================================================================
-#####Question
-![Question](/images/ops.gif)
-#####Answer: 
+#####Question31
+![Question31](/images/ops31.gif)
+#####Answer: C
 #####Comment: 
+>THe answer is A or C, a very few couple of people mention you could have 2 ELBs
 >
+
 =========================================================================
-#####Question
-![Question](/images/ops.gif)
-#####Answer: 
+#####Question32
+![Question32](/images/ops32.gif)
+#####Answer: A
 #####Comment: 
->
+>I see no reason you can't do snapshots
+
 =========================================================================
-#####Question
-![Question](/images/ops.gif)
-#####Answer: 
+#####Question33
+![Question33](/images/ops33.gif)
+#####Answer: C
 #####Comment: 
+>[AWS Link](https://aws.amazon.com/about-aws/whats-new/2013/01/08/use-amazon-cloudwatch-to-detect-and-shut-down-unused-amazon-ec2-instances/)
 >
+
 =========================================================================
-#####Question
-![Question](/images/ops.gif)
-#####Answer: 
+#####Question34
+![Question34](/images/ops34.gif)
+#####Answer: B
 #####Comment: 
->
+>I don't know, maybe 
 =========================================================================
 #####Question
 ![Question](/images/ops.gif)
