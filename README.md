@@ -251,79 +251,95 @@
 ![Question34](/images/ops34.gif)
 #####Answer: B
 #####Comment: 
->I don't know, maybe 
+>I don't know, maybe C - more to follow
+
 =========================================================================
-#####Question
-![Question](/images/ops.gif)
-#####Answer: 
+#####Question35
+![Question35](/images/ops35.gif)
+#####Answer: D
 #####Comment: 
 >
+
 =========================================================================
-#####Question
-![Question](/images/ops.gif)
-#####Answer: 
+#####Question36
+![Question36](/images/ops36.gif)
+#####Answer: B
+#####Comment: 
+>this is worded badly and there is an agent you can load on Ubuntu and Amazon Linux that will capture
+>"disk" or partition usage metrics
+
+=========================================================================
+#####Question37
+![Question37](/images/ops37.gif)
+#####Answer: B
 #####Comment: 
 >
+
 =========================================================================
-#####Question
-![Question](/images/ops.gif)
-#####Answer: 
+#####Question38
+![Question38](/images/ops38.gif)
+#####Answer: C, D
 #####Comment: 
 >
+
 =========================================================================
-#####Question
-![Question](/images/ops.gif)
-#####Answer: 
+#####Question39
+![Question39](/images/ops39.gif)
+#####Answer: B
+#####Comment: 
+>Chef and Beanstalk work great together, but answer B seems awful simplistic, not mentioning where Chef is configured/stood up. Chef and Beanstalk should "minimize the administrative burden", so B is the strongest answer
+>
+>http://gabrielsomoza.com/aws/case-for-opsworks/
+
+=========================================================================
+#####Question40
+![Question40](/images/ops40.gif)
+#####Answer: B
+#####Comment: 
+>There are no deny rules for SGs, must be NACLs
+
+=========================================================================
+#####Question41
+![Question41](/images/ops41.gif)
+#####Answer: B
 #####Comment: 
 >
+
 =========================================================================
-#####Question
-![Question](/images/ops.gif)
-#####Answer: 
+#####Question42
+![Question42](/images/ops42.gif)
+#####Answer: C
 #####Comment: 
 >
+
 =========================================================================
-#####Question
-![Question](/images/ops.gif)
-#####Answer: 
+#####Question43
+![Question43](/images/ops43.gif)
+#####Answer: A
 #####Comment: 
 >
+
 =========================================================================
-#####Question
-![Question](/images/ops.gif)
-#####Answer: 
+#####Question44
+![Question44](/images/ops44.gif)
+#####Answer: B
 #####Comment: 
 >
+
 =========================================================================
-#####Question
-![Question](/images/ops.gif)
-#####Answer: 
+#####Question45
+![Question45](/images/ops45.gif)
+#####Answer: C
 #####Comment: 
 >
+
 =========================================================================
-#####Question
-![Question](/images/ops.gif)
-#####Answer: 
+#####Question46
+![Question46](/images/ops46.gif)
+#####Answer: C
 #####Comment: 
 >
-=========================================================================
-#####Question
-![Question](/images/ops.gif)
-#####Answer: 
-#####Comment: 
->
-=========================================================================
-#####Question
-![Question](/images/ops.gif)
-#####Answer: 
-#####Comment: 
->
-=========================================================================
-#####Question
-![Question](/images/ops.gif)
-#####Answer: 
-#####Comment: 
->
+
 =========================================================================
 #####Question
 ![Question](/images/ops.gif)
