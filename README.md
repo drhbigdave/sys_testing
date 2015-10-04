@@ -327,7 +327,7 @@
 #####Answer: B
 #####Comment: 
 >You end up having both an EC2 Instance health check and an ELB health check. Coincidentally this link is one of the few mentions of multiple ELBs fronting the same instances,
->which is alluded to in an earlier question on redundancy. 
+>which is alluded to in an earlier question on redundancy. When you have multiples all ELBs must report an instance as InService or it gets crushed.
 > http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/as-add-elb-healthcheck.html
 
 =========================================================================
