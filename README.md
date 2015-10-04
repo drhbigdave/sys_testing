@@ -50,6 +50,7 @@
 #####Answer: A, B or C are correct
 #####Comment: 
 >to make and existing EBS vol PIOPs vol you must make new vols from a snapshot of your original, you can EBS optimize an existing instance, and SSD would be better than magnetic
+>, however, PIOPs on a magnetic vol would not be adequate, so you could infer C is completely wrong
 
 =========================================================================
 #####Question8
@@ -109,7 +110,7 @@
 #####Comment: 
 >B could be true as Trusted Advisor will warn you if you are already using %80 of your limit
 >and x times 20 = 175 means you currently have 9 instances, it depends on the type if that already
->over the limit or not
+>over the limit or not, some on-demand limits are are low as 2, some are as high as 20.
 
 =========================================================================
 #####Question16
@@ -241,15 +242,16 @@
 =========================================================================
 #####Question33
 ![Question33](/images/ops33.gif)
-#####Answer: C
+#####Answer: A
 #####Comment: 
+>C can be done easily with Cloudwatch
 >[AWS Link](https://aws.amazon.com/about-aws/whats-new/2013/01/08/use-amazon-cloudwatch-to-detect-and-shut-down-unused-amazon-ec2-instances/)
 >
 
 =========================================================================
 #####Question34
 ![Question34](/images/ops34.gif)
-#####Answer: B
+#####Answer: A
 #####Comment: 
 >I don't know, maybe C - more to follow
 
@@ -288,7 +290,7 @@
 #####Answer: B
 #####Comment: 
 >Chef and Beanstalk work great together, but answer B seems awful simplistic, not mentioning where Chef is configured/stood up. Chef and Beanstalk should "minimize the administrative burden", so B is the strongest answer
->
+>Further, the Opsworks FAQ indicates Beanstalk has a more narrow list of available architectural options, to make Beanstalk the simpler solution. 
 >http://gabrielsomoza.com/aws/case-for-opsworks/
 
 =========================================================================
@@ -324,7 +326,9 @@
 ![Question44](/images/ops44.gif)
 #####Answer: B
 #####Comment: 
->
+>You end up having both an EC2 Instance health check and an ELB health check. Coincidentally this link is one of the few mentions of multiple ELBs fronting the same instances,
+>which is alluded to in an earlier question on redundancy. 
+> http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/as-add-elb-healthcheck.html
 
 =========================================================================
 #####Question45
